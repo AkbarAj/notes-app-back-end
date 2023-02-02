@@ -4,6 +4,7 @@
   "description": "membuat aplikasi back-end catatan",
   "main": "index.js",
   "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/server.js",
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
