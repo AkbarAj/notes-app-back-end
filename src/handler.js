@@ -17,7 +17,7 @@ const addNoteHandler = (request, h) => {
     const isSucces = notes.filter((note) => note.id === id).length > 0; // memfilter array berdasarkan data id
     if (isSucces) {
         const response = h.response({
-            status: 'succes',
+            status: 'success',
             message: 'Catatan berhasil ditambahkan',
             data: {
                 noteId: id
