@@ -35,7 +35,7 @@ const addNoteHandler = (request, h) => {
 };
 // fungsi untuk menampilkan seluruh catatan yang telah dibuat
 const getAllNotesHandler = () => ({
-    status: 'succes',
+    status: 'success',
     data: {
         notes,
     },
